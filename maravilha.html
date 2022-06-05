@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulher Maravilha</title>
+    <link rel="stylesheet"  href="estilo.css"/>
+	<link rel="stylesheet"  href="filmes_detalhe.css"/>
+    <script src="evento.js"></script>
+    <script src="temaSearch.js"></script>
+</head>
+</head>
+<body>
+    <div class="flex_container">
+	<header>
+    
+   </header> 
+   <nav>
+		<img src="menu.png" class="menu" onclick="AparecerMenu(this)" id="menu"></img>
+        <ul id="lista">
+            <li class="menu_centro" class="logoTipo">
+                <a href="index.html"  class="logoTipo">
+                    <img src="logo.png" 
+                        alt="logotipo do site FilmeHero" 
+                        title="FilmeHero"
+                        class="logo">
+                    </img>
+                </a>
+            </li>
+            <li><a href="index.html" class="menu_centro">Filmes</a></li>
+            <li><a href="sobre.html" class="menu_centro">Sobre</a></li>
+            <li class="search"><input type="search"
+                    class="pesquisa_campo"
+                    placeholder="Busca"
+                    id="pesquisa"/>
+                <input type="button" value="Pesquisar" class="btnSearch" onclick="campoPesquisa();"></input>
+            </li>
+        </ul>
+   </nav>
+   <section>
+       <div class="filme">
+            <img src="maravilha.jpg"
+				class="imagem_filme"
+                alt="Foto da mulher maravilha"
+                title="Mulher Maravilha"/>
+			<div class="texto">
+			<p class="titulo">Resumo</p>
+			<p>
+			<br>
+			Em Mulher-Maravilha, treinada desde cedo para ser uma guerreira imbatível, 
+			Diana Prince (Gal Gadot) nunca saiu da paradisíaca ilha em que é reconhecida 
+			como princesa das Amazonas. Quando o piloto Steve Trevor (Chris Pine) se 
+			acidenta e cai numa praia do local, ela descobre que uma guerra sem precedentes 
+			está se espalhando pelo mundo e decide deixar seu lar certa de que pode parar o 
+			conflito. Lutando para acabar com todas as lutas, Diana percebe o alcance de seus 
+			poderes e sua verdadeira missão na Terra.
+            </p>
+			<br>
+			<br>
+            <p>
+			Referências: https://www.adorocinema.com/filmes/filme-173720/
+			</p>
+			</div>
+        </div>
+    </section>
+    <footer>
+			<a href="https://br.linkedin.com/in/ang%C3%A9lica-shigematsu-122623182?original_referer=https%3A%2F%2Fwww.google.com.br%2F">
+				<img src="linkedin.svg" class="icone"></img>
+			</a>
+			<a href="https://github.com/angelica-shigematsu">
+				<img src="github.svg" class="icone"></img>
+			</a>
+	</footer>
+</div>
+</body>
+</html>

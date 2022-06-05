@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="estilo.css"/>
+	<script src="evento.js"></script>
+	<script src="temaSearch.js"></script>
+</head>
+<body>
+    <div class="flex_container">
+		<header>
+
+	   </header> 
+	   <nav>
+			<img src="menu.png" class="menu" onclick="AparecerMenu(this)" id="menu"></img>
+			<ul id="lista">
+				<li class="menu_centro" class="logoTipo">
+					<a href="index.html"  class="logoTipo">
+						<img src="logo.png" 
+							alt="logotipo do site FilmeHero" 
+							title="FilmeHero"
+							class="logo">
+						</img>
+					</a>
+				</li>
+				<li><a href="index.html" class="menu_centro">Filmes</a></li>
+				<li><a href="sobre.html" class="menu_centro">Sobre</a></li>
+				<li class="search"><input type="search"
+						class="pesquisa_campo"
+						placeholder="Busca"
+						id="pesquisa"/>
+				<input type="button" value="Pesquisar" class="btnSearch" onclick="campoPesquisa();"></input>
+				</li>
+			</ul>
+	   </nav>
+	   <section>
+		   <div class="catalogo_filme">
+			   <a href="maravilha.html" class="btnCatalog"> 
+					<img src="maravilha.jpg"
+						alt="Foto da mulher maravilha"
+						title="Mulher Maravilha"/>
+				</a>
+				<a href="batman.html" class="btnCatalog">
+					<img src="batman.jpg"
+						alt="Foto da mulher maravilha"
+						title="Mulher Maravilha"/>
+				</a>
+				<a href="aranha.html" class="btnCatalog">
+					<img src="homem_aranha.jpg"
+						alt="Foto da mulher maravilha"
+						title="Mulher Maravilha"/>
+				</a>
+			</div>
+		</section>
+	   <footer>
+			<a href="https://br.linkedin.com/in/ang%C3%A9lica-shigematsu-122623182?original_referer=https%3A%2F%2Fwww.google.com.br%2F">
+				<img src="linkedin.svg" class="icone"></img>
+			</a>
+			<a href="https://github.com/angelica-shigematsu">
+				<img src="github.svg" class="icone"></img>
+			</a>
+	   </footer>
+	</div>
+</body>
+</html>

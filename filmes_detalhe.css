@@ -1,0 +1,38 @@
+.filme{
+	background-color: rgb(114, 126, 175);
+	color: white;
+	display: flex;
+}
+.imagem_filme{
+	margin: 5%;
+}
+img{
+	width: 20%;
+	height: 30%;
+}
+p{
+	margin: 6%;
+	font-size: 22px;
+}
+.titulo{
+	font-size: 30px;
+}
+.texto{
+	flex-wrap: wrap;
+}
+@media screen and (min-width:200px) and (max-width:800px){
+	.filme{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	p{
+		margin: 4%;
+		border: 1%;
+		text-align: justify;
+		font-size: 0.8em;
+	}
+	.catalogo_filme a{
+		margin-left: 5%;
+	}
+}
