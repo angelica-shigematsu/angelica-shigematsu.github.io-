@@ -1,1 +1,0 @@
-# angelica-shigematsu.github.io
